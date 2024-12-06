@@ -87,6 +87,17 @@ This software uses [FFmpeg](https://ffmpeg.org/) as its core multimedia processi
 
 Thanks to the developers of [PyQt5](https://pypi.org/project/PyQt5/) for enabling a feature-rich graphical interface.
 
+In addition, the following Python libraries are used in this project:
+
+- **os**: Standard library for interacting with the operating system.
+- **sys**: Provides access to system-specific parameters and functions.
+- **subprocess**: For running system commands from within the Python program.
+- **base64**: Handles encoding and decoding of data in base64 format.
+- **tempfile**: Used to create temporary files.
+- **PyQt5.QtCore**: Provides core functionality like threading and signals.
+- **PyQt5.QtGui**: Handles graphical elements, including icons.
+- **PyQt5.QtWidgets**: Used for building the GUI, including buttons, labels, and dialogs.
+
 ### Contributions
 We welcome contributions! To contribute:
 1. Fork the repository.
@@ -96,4 +107,3 @@ We welcome contributions! To contribute:
 ---
 
 Enjoy using NextMask FFmpeg! Your feedback is invaluable and helps us improve continuously.
-
