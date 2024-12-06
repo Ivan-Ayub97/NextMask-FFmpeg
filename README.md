@@ -1,7 +1,7 @@
 # NextMask FFmpeg
 Developed by Iván Ayub
 
-NextMask FFmpeg is a robust desktop application designed for multimedia professionals and enthusiasts. It leverages the FFmpeg library to enhance and process video and audio files through an intuitive interface.
+NextMask FFmpeg is a robust desktop application designed for multimedia professionals and enthusiasts. It leverages the FFmpeg library to enhance and process video files through an intuitive interface.
 
 ---
 
