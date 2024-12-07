@@ -11,7 +11,7 @@ NextMask FFmpeg is a robust desktop application designed for multimedia professi
 For inquiries or feedback, contact me at: [sellocasadenubes@gmail.com](mailto:sellocasadenubes@gmail.com).
 
 
-![NextMask FFmpeg Icon](NextMask_FFmpeg.png)
+![NextMask FFmpeg Icon](iconNextMask_FFmpeg.png)
 
 ---
 
