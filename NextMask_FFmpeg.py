@@ -1,4 +1,5 @@
 import os
+from pickle import TRUE
 import sys
 import subprocess
 import base64
@@ -198,7 +199,7 @@ class MediaQualityEnhancer(QWidget):
 
         # Checkbox para fotograma constante
         self.constant_frame_rate_checkbox = QCheckBox("Enable Constant Frame Rate (CFR)")
-        self.constant_frame_rate_checkbox.setChecked(False)  # Desactivado por defecto
+        self.constant_frame_rate_checkbox.setChecked(True)  # Desactivado por defecto
         self.constant_frame_rate_checkbox.stateChanged.connect(self.update_frame_rate_options)
         frame_rate_layout.addWidget(self.constant_frame_rate_checkbox)
 
@@ -207,7 +208,7 @@ class MediaQualityEnhancer(QWidget):
         max_frame_rate_layout.addWidget(QLabel("Max Frame Rate (FPS):"))
         self.max_frame_rate_input = QLineEdit()
         self.max_frame_rate_input.setPlaceholderText("e.g., 30")
-        self.max_frame_rate_input.setEnabled(False)  # Desactivado por defecto
+        self.max_frame_rate_input.setEnabled(False)
         max_frame_rate_layout.addWidget(self.max_frame_rate_input)
         frame_rate_layout.addLayout(max_frame_rate_layout)
 

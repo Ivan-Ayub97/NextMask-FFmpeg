@@ -1,0 +1,18 @@
+{
+    "workbench.activityBar.iconClickBehavior": "toggle",
+    "workbench.activityBar.location": "top",
+    "workbench.colorTheme": "Monokai Classic",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right",
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.editor.alwaysShowEditorActions": true,
+    "workbench.editor.autoLockGroups": {
+        "imagePreview.previewEditor": true,
+        "jsProfileVisualizer.cpuprofile.table": true,
+        "jupyter-notebook": true,
+        "workbench.editorinputs.searchEditorInput": true,
+        "mainThreadWebview-markdown.preview": true
+    },
+    "window.autoDetectColorScheme": false
+}
