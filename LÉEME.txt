@@ -1,0 +1,104 @@
+# NextMask FFmpeg  
+Desarrollado por Iván Ayub  
+
+NextMask FFmpeg es una robusta aplicación de escritorio diseñada para profesionales y entusiastas multimedia. Aprovecha la biblioteca FFmpeg para mejorar y procesar archivos de video a través de una interfaz intuitiva.  
+
+---  
+
+Para consultas o comentarios, contáctame en: [sellocasadenubes@gmail.com](mailto:sellocasadenubes@gmail.com).  
+
+![Ícono de NextMask FFmpeg](iconNextMask_FFmpeg.png)  
+
+---  
+
+## Descripción  
+NextMask FFmpeg combina la potencia de FFmpeg con una interfaz fácil de usar, permitiendo mejoras y conversiones multimedia de calidad de manera fluida. Su diseño optimizado lo hace accesible tanto para profesionales como para usuarios ocasionales.  
+
+---  
+
+## Características  
+- **Procesamiento de Video:**  
+  - Presets para resoluciones desde 480p hasta 4K (AV1 Ultra).  
+  - Opciones de configuración personalizadas para usuarios avanzados.  
+
+- **Procesamiento de Audio:**  
+  - Soporte para múltiples códecs, incluidos AAC, MP3 y AC3.  
+  - Opción para conservar el audio original.  
+
+- **Salida Personalizable:**  
+  - Ajuste de nombres, formatos y ubicaciones de guardado.  
+  - Escalado de resoluciones y mantenimiento de relaciones de aspecto.  
+
+- **Registro en Tiempo Real:**  
+  - Progreso y registros detallados mostrados durante el procesamiento.  
+
+- **Interfaz Moderna:**  
+  - Tema oscuro intuitivo diseñado para un uso eficiente.  
+
+---  
+
+## Cómo Usar  
+1. **Seleccionar Archivo Multimedia:** Escoge el archivo a procesar usando el botón "Seleccionar Video".  
+2. **Elegir Carpeta de Salida:** Especifica la carpeta de destino para los archivos procesados.  
+3. **Configurar Ajustes:**  
+   - Selecciona la calidad del video y el códec de audio.  
+   - Personaliza el nombre y el formato del archivo.  
+   - Ajusta configuraciones avanzadas como escalado y tasas de cuadros.  
+4. **Iniciar Procesamiento:** Haz clic en "Iniciar Procesamiento" para comenzar y monitorea los registros en tiempo real.  
+5. **Cancelar si es Necesario:** Cancela el procesamiento en cualquier momento durante la operación.  
+
+### Escenario de Ejemplo  
+Mejora un video de baja resolución a calidad HD o conviértelo a un formato moderno para garantizar su compatibilidad con dispositivos nuevos, manteniendo una alta fidelidad de audio.  
+
+---  
+
+## Estructura de la Aplicación  
+### Interfaz de Usuario (UI)  
+Construida con PyQt5, la aplicación ofrece una interfaz moderna y responsiva que simplifica el procesamiento multimedia.  
+
+### Módulos Principales  
+1. **Motor de Procesamiento:** Integra FFmpeg para tareas de video y audio.  
+2. **Módulo de Registro:** Proporciona retroalimentación en tiempo real sobre el estado del proceso.  
+3. **Gestor de Configuración:** Maneja las preferencias del usuario y configuraciones personalizadas.  
+
+---  
+
+## Requisitos del Sistema  
+- **Sistema Operativo:** Windows 7 o superior  
+- **Dependencias:**  
+  - Python 3.7 o superior  
+  - PyQt5  
+  - FFmpeg (instalado y añadido al PATH del sistema)  
+
+---  
+
+## Capturas  
+![Captura de Pantalla de la Aplicación](SSiconNextMask_FFmpeg.png)  
+
+---  
+
+## Desarrollo y Contribución  
+### Créditos  
+Este software utiliza [FFmpeg](https://ffmpeg.org/) como su motor principal de procesamiento multimedia. FFmpeg es un marco líder en la industria para contenido multimedia. Un agradecimiento especial al equipo de FFmpeg por sus valiosas contribuciones a la tecnología de código abierto. FFmpeg tiene licencia bajo [LGPLv2.1](https://ffmpeg.org/legal.html) o posterior.  
+
+Gracias a los desarrolladores de [PyQt5](https://pypi.org/project/PyQt5/) por permitir una interfaz gráfica rica en funcionalidades.  
+
+Además, se utilizan las siguientes bibliotecas de Python en este proyecto:  
+- **os:** Biblioteca estándar para interactuar con el sistema operativo.  
+- **sys:** Proporciona acceso a parámetros y funciones específicos del sistema.  
+- **subprocess:** Para ejecutar comandos del sistema desde el programa en Python.  
+- **base64:** Maneja codificación y decodificación de datos en formato base64.  
+- **tempfile:** Usada para crear archivos temporales.  
+- **PyQt5.QtCore:** Proporciona funcionalidades principales como hilos y señales.  
+- **PyQt5.QtGui:** Maneja elementos gráficos, incluidos íconos.  
+- **PyQt5.QtWidgets:** Usada para construir la GUI, incluyendo botones, etiquetas y diálogos.  
+
+### Contribuciones  
+¡Aceptamos contribuciones! Para contribuir:  
+1. Haz un fork del repositorio.  
+2. Realiza tus cambios.  
+3. Envía un pull request.  
+
+---  
+
+¡Disfruta usando NextMask FFmpeg! Tus comentarios son invaluables y nos ayudan a mejorar continuamente.  

@@ -1,0 +1,92 @@
+Contribuyendo a NextMask FFmpeg
+¡Gracias por considerar contribuir a NextMask FFmpeg! Damos la bienvenida a contribuciones de todos y los alentamos a mejorar y extender el proyecto. Antes de contribuir, por favor lea y siga las pautas a continuación para garantizar una colaboración fluida.
+
+Tabla de Contenidos
+Cómo Contribuir
+Reportar Problemas
+Sugerir Mejoras
+Crear Pull Requests
+Código de Conducta
+Directrices de Desarrollo
+Pruebas
+Licencia
+Cómo Contribuir
+Existen varias maneras en las que puedes contribuir a NextMask FFmpeg:
+
+Reportar Problemas
+Si encuentras un error o un problema, verifica los problemas existentes para ver si ya ha sido reportado. Si no, crea un nuevo problema. Al reportar un problema, incluye:
+
+Una descripción clara del problema.
+Pasos para reproducir el problema.
+El entorno en el que ocurre el problema (por ejemplo, sistema operativo, versión de FFmpeg, etc.).
+Capturas de pantalla, registros o mensajes de error (si aplica).
+Sugerir Mejoras
+Si tienes una idea para mejorar o agregar una funcionalidad a NextMask FFmpeg, abre un nuevo problema y describe claramente tu sugerencia. También puedes comentar en problemas existentes para proporcionar más información o apoyar una característica que te gustaría ver.
+
+Crear Pull Requests
+Aceptamos contribuciones en forma de pull requests (PRs). Antes de enviar un PR, asegúrate de que:
+
+Has creado un fork del repositorio y una rama para tus cambios (por ejemplo, feature/tu-característica o bugfix/número-del-problema).
+Tus cambios están basados en la última rama main.
+Tu código sigue las pautas de estilo y formato del proyecto.
+Has escrito pruebas (si aplica) para tus cambios.
+Tu PR incluye una descripción del problema, la solución y cualquier contexto relevante.
+Para enviar tu PR, sigue estos pasos:
+
+Haz un fork del repositorio y clónalo en tu máquina local.
+Crea una nueva rama para tu característica o corrección de errores.
+Realiza tus cambios y confirma los commits con un mensaje claro y conciso.
+Sube tus cambios a tu repositorio fork.
+Abre un pull request a la rama main del repositorio original.
+Código de Conducta
+Al participar en este proyecto, aceptas cumplir con el Código de Conducta. Este documento detalla nuestras expectativas para el comportamiento en la comunidad y proporciona directrices para reportar violaciones.
+
+Nos esforzamos por crear una comunidad acogedora e inclusiva para todos, independientemente de su experiencia o antecedentes.
+
+Directrices de Desarrollo
+Para mantener la calidad y consistencia del proyecto, pedimos que los colaboradores sigan estas directrices:
+
+Estándares de Codificación
+Estilo de Código: Sigue las convenciones de codificación y formato del proyecto. Usa herramientas adecuadas (por ejemplo, linters) para garantizar la consistencia.
+Documentación: Proporciona comentarios y documentación claros y concisos para todas las funciones, métodos y características. Esto ayuda a mantener la legibilidad y utilidad del código.
+Mensajes de Commit: Escribe mensajes de commit claros y concisos en tiempo presente (por ejemplo, "Corrige error en el procesamiento de video"). Usa el siguiente formato:
+plaintext
+Copiar código
+<tipo>(<ámbito>): <mensaje>
+
+<cuerpo opcional explicando el cambio>
+Ejemplo:
+
+plaintext
+Copiar código
+feat(filtrado): agrega nuevo filtro de mezcla de máscaras
+Tipos de Commit
+feat: Una nueva característica.
+fix: Una corrección de errores.
+docs: Cambios en la documentación.
+style: Mejoras en el estilo del código (por ejemplo, formato, espacios).
+refactor: Refactorización de código (sin cambiar funcionalidad).
+test: Agregar o modificar pruebas.
+chore: Cambios misceláneos (por ejemplo, herramientas de compilación, dependencias).
+Pruebas
+Asegúrate de que tus cambios estén correctamente probados. Si estás agregando nuevas características o corrigiendo errores, crea pruebas que verifiquen tus cambios.
+
+Ejecutar Pruebas
+Para ejecutar las pruebas:
+
+Instala las dependencias requeridas:
+
+bash
+Copiar código
+pip install -r requirements.txt
+Ejecuta el conjunto de pruebas:
+
+bash
+Copiar código
+python -m unittest discover
+Asegúrate de que todas las pruebas pasen antes de enviar tu pull request.
+
+Licencia
+Al contribuir a NextMask FFmpeg, aceptas que tus contribuciones serán licenciadas bajo la Licencia AGPL-3.0. Por favor, consulta el archivo LICENSE para más detalles.
+
+¡Gracias por contribuir a NextMask FFmpeg! Tus contribuciones ayudan a mejorar este proyecto para todos. Si tienes preguntas o necesitas más ayuda, no dudes en contactarnos.
