@@ -22,7 +22,7 @@ NextMask FFmpeg combines the power of FFmpeg with a user-friendly interface, all
 
 ## Features
 - **Video Processing:**
-  - Presets for resolutions from 480p to 4K (AV1 Ultra).
+  - Presets for resolutions from 480p to 4K (H.265 Ultra).
   - Custom configuration options for advanced users.
 
 - **Audio Processing:**
