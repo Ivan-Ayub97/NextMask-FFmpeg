@@ -77,7 +77,7 @@ Built with PyQt5, the application offers a responsive and modern interface that 
 ---
 
 ## Captures
-![Application Screenshot](SSiconNextMask_FFmpeg.png)
+![Application Screenshot](SSNextMask_FFmpeg.png)
 
 ---
 
